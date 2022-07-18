@@ -13,7 +13,7 @@
 
 body {
     background-color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 }
 a {
     text-decoration: none;
@@ -190,20 +190,21 @@ margin-right: 30px;
 .ability-option{
     margin-bottom: 10px;
     color: var(--title-text-color);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .ability-text {
     color: var(--accent-color);
     font-weight: 400;
-font-size: 9px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
+
 .responsibilities, .team {
     color: var(--title-text-color);
     font-weight: 700;
