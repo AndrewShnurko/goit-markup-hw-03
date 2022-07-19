@@ -49,9 +49,14 @@ button {
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
+padding-right: 15px;
+padding-left: 15px;
 }
 
-
+.main-header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .head-cont {
     display: flex;
@@ -62,8 +67,6 @@ margin-right: auto;
   
     display: flex;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 .logo {
@@ -206,6 +209,10 @@ margin-right: 30px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+.section-contact{
+    padding-bottom: 94px;
+}
+
 
 .responsibilities, .team {
     color: var(--title-text-color);
@@ -220,7 +227,6 @@ margin-right: 30px;
 
 
 .main-cart {
-    padding-bottom: 94px;
 margin-top: 50px;
     display: flex;
 }
@@ -255,6 +261,13 @@ margin-right: 30px;
     margin-right: 30px;
 }
 
+.div-part {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 .participant {
    color: var(--title-text-color);
    font-weight: 500;
@@ -264,6 +277,7 @@ letter-spacing: 0.03em;
 }
 
 .part-aby {
+    margin-top: 10px;
     color: var(--accent-color);
     font-weight: 400;
 font-size: 16px;
@@ -286,7 +300,7 @@ letter-spacing: 0.03em;
 .contact-footer {
     background-color: #2F303A;
    padding-top: 60px;
-   padding-bottom: 111px;
+   padding-bottom: 60px;
 }
 
 .adress {
@@ -311,6 +325,11 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-tel {
+
+    margin-top: 9px;
+}
 /* portfolio  */
 /* main color FFFFFF */
 /* text color 212121 */
@@ -318,19 +337,23 @@ color: #FFFFFF;
 /* side color #2196F3 */
 
 /* header portfolio */
-
+.hd-pf {
+    border-bottom: 1px solid #ececec;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-bottom: 94px;
+}
 
 .port-gallery {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .button-container {
     margin-left: 215px;
-    padding-bottom: 34px;
+    
 }
 
-   .portfolio-button a:hover, .portfolio-button a:focus {
+   .portfolio-button li:hover, .portfolio-button li:focus {
   color: #ffff;
     background-color: var(--primary-text-color);
    }
@@ -339,34 +362,27 @@ color: #FFFFFF;
   display: flex;
    }
 .port-button:not(:last-child){
-margin-right: 10px;
+margin-right: 8px;
     
 }
 .portfolio-button {
-padding-bottom: 34px;
+margin-bottom: 34px;
 }
 
-   .portfolio-button a{
-
+   .portfolio-button li{
     background-color:#F5F4FA;
     color: #212121;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border: none;
     border-radius: 4px;
-padding: 10px 32px;
- margin-left: auto;
- margin-right: auto;
+padding: 6px 22px;
+ 
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
-line-height: 1.9;
+line-height: 1.63;
 letter-spacing: 0.06em;
    }
 
-   .portfolio-gallery {
-   
-   }
 
 .portfolio-gallery h3{
     color:var(--title-text-color);
@@ -384,8 +400,13 @@ line-height: 1.9;
 letter-spacing: 0.03em;
 }
 
+.portfolio-gallery li{
+    border: 1px solid #EEEEEE
+}
+
 .div-cont {
     display: flex;
+
 }
 
 .li-port {
