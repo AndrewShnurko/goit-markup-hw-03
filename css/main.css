@@ -353,14 +353,12 @@ color: #FFFFFF;
 
 .port-gallery {
     padding-bottom: 94px;
-    padding-top: 0;
+    padding-top: 94px;
 }
 
-.button-container {
-    padding-top: 94px;
-    margin-left: 285px;
+
    
-}
+   
 
    .port-hero:hover, .port-hero:focus {
   color: #ffff;
@@ -369,6 +367,7 @@ color: #FFFFFF;
    
    .portfolio-button {
   display: flex;
+  justify-content: center;
    }
 .port-button:not(:last-child){
 margin-right: 8px;
@@ -383,13 +382,13 @@ margin-right: 8px;
 padding: 6px 22px;
  
 font-family: 'Roboto';
-font-weight: 700;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 letter-spacing: 0.06em;
    }
 .portfolio-gallery {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .portfolio-gallery h3{
